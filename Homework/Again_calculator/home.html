@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>피드백 후 계산기 과제</title>
+</head>
+<body>
+    <div class="calculator">
+        <div class="section">
+            <input type = "text" name="result" readonly>
+        </div>
+
+        <div class="section">
+            <input type = "button" value="C" class= "reset" onclick="clear()">
+            <input type = "button" value="/" class="divi" onclick="input('/')">
+        </div>
+
+        <div class="section">
+            <input type = "button" value="1" class="one" onclick="input('1')">
+            <input type = "button" value="2" class="two" onclick="input('2')">
+            <input type = "button" value="3" class="three" onclick="input('3')">
+            <input type = "button" value="*" class="mul" onclick="input('*')">
+        </div>
+
+        <div class="section">
+            <input type = "button" value="4" class="four" onclick="input('4')">
+            <input type = "button" value="5" class="five" onclick="input('5')">
+            <input type = "button" value="6" class="six" onclick="input('6')">
+            <input type = "button" value="+" class="plus" onclick="input('+')">
+        </div>
+
+        <div class="section">
+            <input type = "button" value="7" class="seven" onclick="input('7')">
+            <input type = "button" value="8" class="eight" onclick="input('8')">
+            <input type = "button" value="9" class="nine" onclick="input('9')">
+            <input type = "button" value="-" class="minus" onclick="input('-')">
+        </div>
+
+        <div class="section">
+            <input type = "button" value="." class="dot" onclick="input('.')">
+            <input type = "button" value="0" class="zero" onclick="input('0')">
+            <input type = "button" value="=" class="equal" onclick="result()">
+    </div>
+    
+</body>
+</html>
