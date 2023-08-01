@@ -61,7 +61,7 @@ export const Grade = styled.div`
         ? "#D8D9DA"
         : IDEX_NM === "나쁨"
         ? "#E48586"
-        : "D5FFE4"};
+        : "#D8D9DA"};
     width: 40%;
     height: 60%;
     display: flex;

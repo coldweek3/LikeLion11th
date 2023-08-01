@@ -12,6 +12,11 @@ const Detail = () => {
 
     // MSRDT를 8글자만 보이도록
     const MSRDT_short = MSRDT.slice(0, 8);
+
+    const getGradeContent = (IDEX_NM) => {
+      return IDEX_NM === "" ? "-" : IDEX_NM;
+    };
+    
   
   return(
     <>
@@ -39,7 +44,7 @@ const Detail = () => {
             </Data>
             <Grade IDEX_NM={IDEX_NM}>
               <p>통합환경대기등급</p>
-              <p>{IDEX_NM}</p>
+              <p>{getGradeContent(IDEX_NM)}</p>
             </Grade>
         </SecondSection>
 
